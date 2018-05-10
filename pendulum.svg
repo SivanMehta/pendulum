@@ -1,0 +1,7 @@
+<svg height="120" width="120">
+  <!-- The tether -->
+  <line x1="60" y1="0" x2="60" y2="90" stroke="black" />
+
+  <!-- The bob -->
+  <circle cx="60" cy="90" r="10" fill="red"/>
+</svg>
