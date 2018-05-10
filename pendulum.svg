@@ -1,7 +1,18 @@
-<svg height="120" width="120">
+<svg height="200" width="200">
   <!-- The tether -->
-  <line x1="60" y1="0" x2="60" y2="90" stroke="black" />
+  <line x1="70" y1="0" x2="70" y2="110" stroke="black" />
+
+  <!-- path for circle to follow -->
+  <path d="M20,100  A100,100 0 0,0 120,100 A100,100 0 0,1 20,100"
+      fill="none"
+      stroke="red"
+      stroke-width="1"
+      id="tetherPath"/>
 
   <!-- The bob -->
-  <circle cx="60" cy="90" r="10" fill="red"/>
+  <circle cx="" cy="" r="10" fill="red">
+    <animateMotion dur="2s" repeatCount="indefinite" rotate="auto" >
+       <mpath xlink:href="#tetherPath"/>
+    </animateMotion>
+  </circle>
 </svg>
