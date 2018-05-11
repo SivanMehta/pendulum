@@ -39,11 +39,4 @@
   <text x="245" y="90" font-size="20" transform="rotate(270 250 250)">9</text>
   <text x="245" y="90" font-size="20" transform="rotate(300 250 250)">10</text>
   <text x="245" y="90" font-size="20" transform="rotate(330 250 250)">11</text>
-
-  <!-- ticks in between -->
-  <!--
-    generated with:
-    [...Array(180).keys()].map(i => `<rect x="250" y="70" height="20" width="1" transform="rotate(${i * 2} 250 250)"/>`).map(e => console.log(e))
-    and then selectively deleting those that overlap
-  -->
 </svg>
