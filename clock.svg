@@ -1,15 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360px" height="360px" viewBox="0 0 360 360">
+    <!-- seconds hand -->
+    <rect x="180" y="0" height="180" width="1" fill="red">
+      <animateTransform attributeName="transform" type="rotate"
+        from="0 180 180"
+        to="360 180 180"
+        dur="6s" repeatCount="indefinite" />
+    </rect>
+    <!-- minute hand -->
     <rect x="180" y="0" height="180" width="5">
       <animateTransform attributeName="transform" type="rotate"
         from="0 180 180"
         to="360 180 180"
-        dur="1s" repeatCount="indefinite" />
+        dur="360s" repeatCount="indefinite" />
     </rect>
+    <!-- hour hand -->
     <rect x="180" y="90" height="90" width="5">
       <animateTransform attributeName="transform" type="rotate"
-        from="0 180 180"
-        to="360 180 180"
-        dur="60s" repeatCount="indefinite" />
+        from="90 180 180"
+        to="450 180 180"
+        dur="4320s" repeatCount="indefinite" />
     </rect>
     <circle cx="180" cy="180" r="10" />
  </svg>
