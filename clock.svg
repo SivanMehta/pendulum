@@ -16,10 +16,10 @@
       dur="60s" repeatCount="indefinite" />
   </rect>
   <!-- hour hand -->
-  <rect x="245" y="252.5" height="90" width="10">
+  <rect x="245" y="160" height="90" width="10">
     <animateTransform attributeName="transform" type="rotate"
-      from="270 250 250"
-      to="630 250 250"
+      from="0 250 250"
+      to="270 250 250"
       dur="720s" repeatCount="indefinite" />
   </rect>
   <!-- hide the center abberation -->
