@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128px" height="128px" viewBox="0 0 16 16">
+    <g>
+        <animateTransform attributeName="transform" type="rotate"
+           values="0 8 8; 45 8 8; 90 8 8; 135 8 8; 180 8 8; 225 8 8; 270 8 8; 315 8 8"
+           dur="8s" calcMode="discrete" repeatCount="indefinite" />
+        <rect fill="#404040" x="7.062" y="3.625" width="1.875" height="8.75"/>
+    </g>
+</svg>
