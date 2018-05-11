@@ -6,21 +6,21 @@
     <animateTransform attributeName="transform" type="rotate"
       from="0 250 250"
       to="360 250 250"
-      dur="6s" repeatCount="indefinite" />
+      dur="1s" repeatCount="indefinite" />
   </rect>
   <!-- minute hand -->
   <rect x="247.5" y="90" height="160" width="5">
     <animateTransform attributeName="transform" type="rotate"
       from="0 250 250"
       to="360 250 250"
-      dur="360s" repeatCount="indefinite" />
+      dur="60s" repeatCount="indefinite" />
   </rect>
   <!-- hour hand -->
   <rect x="245" y="252.5" height="90" width="10">
     <animateTransform attributeName="transform" type="rotate"
       from="270 250 250"
       to="630 250 250"
-      dur="4320s" repeatCount="indefinite" />
+      dur="720s" repeatCount="indefinite" />
   </rect>
   <!-- hide the center abberation -->
   <circle cx="250" cy="250" r="10" />
