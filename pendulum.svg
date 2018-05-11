@@ -4,23 +4,26 @@
       fill="none"
       id="tetherPath"/>
 
-      <!-- The tether -->
-    <line x1="70" y1="0" stroke="black">
-      <animate
-        values="20;120;20"
-        attributeName="x2"
-        dur="2s"
-        repeatCount="indefinite"/>
-      <animate
-        values="100;110;100;110;100"
-        attributeName="y2"
-        dur="2s"
-        repeatCount="indefinite"/>
-    </line>
+  <!-- The tether -->
+  <line x1="70" y1="0" stroke="black">
+    <animate
+      values="20;120;20"
+      attributeName="x2"
+      dur="2s"
+      repeatCount="indefinite"/>
+    <animate
+      values="100;110;100;110;100"
+      attributeName="y2"
+      dur="2s"
+      repeatCount="indefinite"/>
+  </line>
 
-  <!-- The bob -->
-  <circle cx="" cy="" r="10" fill="red">
-    <animateMotion dur="2s" repeatCount="indefinite" rotate="auto" >
+  <!-- The bobs -->
+  <circle r="10" fill="red">
+    <animateMotion
+      dur="2s"
+      repeatCount="indefinite"
+      rotate="auto" >
        <mpath xlink:href="#tetherPath"/>
     </animateMotion>
   </circle>
