@@ -27,10 +27,18 @@
   <circle cx="250" cy="250" r="180" fill="none" stroke="black"/>
 
   <!-- Numbers -->
-  <text x="410" y="252.5" font-size="20">3</text>
-  <text x="247.5" y="425" font-size="20">6</text>
-  <text x="80" y="250" font-size="20">9</text>
   <text x="245" y="90" font-size="20">12</text>
+  <text x="245" y="90" font-size="20" transform="rotate(30 250 250)">1</text>
+  <text x="245" y="90" font-size="20" transform="rotate(60 250 250)">2</text>
+  <text x="245" y="90" font-size="20" transform="rotate(90 250 250)">3</text>
+  <text x="245" y="90" font-size="20" transform="rotate(120 250 250)">4</text>
+  <text x="245" y="90" font-size="20" transform="rotate(150 250 250)">5</text>
+  <text x="245" y="90" font-size="20" transform="rotate(180 250 250)">6</text>
+  <text x="245" y="90" font-size="20" transform="rotate(210 250 250)">7</text>
+  <text x="245" y="90" font-size="20" transform="rotate(240 250 250)">8</text>
+  <text x="245" y="90" font-size="20" transform="rotate(270 250 250)">9</text>
+  <text x="245" y="90" font-size="20" transform="rotate(300 250 250)">10</text>
+  <text x="245" y="90" font-size="20" transform="rotate(330 250 250)">11</text>
 
   <!-- ticks in between -->
   <!--
@@ -38,171 +46,4 @@
     [...Array(180).keys()].map(i => `<rect x="250" y="70" height="20" width="1" transform="rotate(${i * 2} 250 250)"/>`).map(e => console.log(e))
     and then selectively deleting those that overlap
   -->
-  <rect x="250" y="70" height="20" width="1" transform="rotate(6 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(8 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(10 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(12 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(14 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(16 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(18 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(20 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(22 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(24 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(26 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(28 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(30 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(32 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(34 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(36 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(38 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(40 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(42 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(44 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(46 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(48 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(50 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(52 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(54 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(56 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(58 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(60 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(62 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(64 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(66 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(68 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(70 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(72 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(74 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(76 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(78 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(80 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(82 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(84 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(92 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(94 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(96 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(98 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(100 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(102 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(104 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(106 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(108 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(110 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(112 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(114 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(116 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(118 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(120 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(122 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(124 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(126 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(128 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(130 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(132 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(134 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(136 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(138 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(140 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(142 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(144 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(146 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(148 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(150 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(152 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(154 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(156 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(158 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(160 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(162 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(164 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(166 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(168 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(170 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(172 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(174 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(182 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(184 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(186 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(188 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(190 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(192 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(194 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(196 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(198 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(200 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(202 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(204 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(206 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(208 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(210 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(212 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(214 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(216 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(218 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(220 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(222 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(224 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(226 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(228 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(230 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(232 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(234 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(236 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(238 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(240 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(242 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(244 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(246 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(248 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(250 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(252 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(254 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(256 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(258 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(260 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(262 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(264 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(266 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(268 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(276 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(278 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(280 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(282 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(284 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(286 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(288 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(290 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(292 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(294 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(296 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(298 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(300 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(302 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(304 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(306 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(308 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(310 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(312 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(314 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(316 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(318 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(320 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(322 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(324 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(326 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(328 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(330 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(332 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(334 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(336 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(338 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(340 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(342 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(344 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(346 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(348 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(350 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(352 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(354 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(356 250 250)"/>
-  <rect x="250" y="70" height="20" width="1" transform="rotate(358 250 250)"/> </svg>
+</svg>
