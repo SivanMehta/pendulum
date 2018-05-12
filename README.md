@@ -1,2 +1,6 @@
-# pendulum
-A pendulum in pure svg
+# svgs
+
+![](popsicle.svg)
+![](clock.svg)
+![](bar-chart.svg)
+![](pendulum.svg)
