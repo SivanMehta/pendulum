@@ -52,6 +52,26 @@
       A 1 1 0 0 0 270 565
       z
     "/>
+
+  <!-- tongue -->
+  <defs>
+    <clipPath id="cut-off-bottom">
+      <path
+        d="
+          M 230 565
+          A 1 1 0 0 0 270 565
+          z
+        "/>
+    </clipPath>
+  </defs>
+  <path
+    fill="rgb(254,194,185)"
+    clip-path="url(#cut-off-bottom)"
+    d="
+      M 230 590
+      A 1 1 0 0 1 270 590
+      z
+    "/>
   <rect x="230" y="564" width="40" height="3" fill="rgb(237,153,146)" ry="1"/>
 
   <path
