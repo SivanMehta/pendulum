@@ -1,13 +1,10 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500px" height="1000px" viewBox="0 0 500 1000">
-
-  <!-- Border Outline-->
-  <rect x="1" y="1" height="999" width="499" fill="none" stroke="black"/>
-
   <!-- https://dribbble.com/shots/2408548-Melting-icecream-Animated-with-css -->
+
   <!-- shadow -->
   <ellipse
-    cx="250"
+    cx="100"
     cy="770"
     rx="60"
     ry="20"
@@ -16,7 +13,7 @@
   <!-- stick -->
   <rect
     fill="rgb(251,214,175)"
-    x="225"
+    x="75"
     y="570"
     rx="20"
     height="200"
@@ -24,7 +21,7 @@
     />
   <rect
     fill="rgb(238,203,166)"
-    x="225"
+    x="75"
     y="570"
     height="45"
     width="50"
@@ -32,28 +29,28 @@
 
   <!-- ice cream -->
   <rect
-    x="150"
+    x="0"
     y="250"
     height="350"
     width="200"
     fill="rgb(253,175,168)"
     rx="15" ry="15"/>
   <ellipse
-    cx="250"
+    cx="100"
     cy="270"
     rx="100"
     ry="50"
     fill="rgb(253,175,168)"
     />
   <rect
-    x="185"
+    x="35"
     y="260"
     height="250"
     width="50"
     fill="rgb(253,165,157)"
     rx="30" ry="30"/>
   <rect
-    x="265"
+    x="115"
     y="260"
     height="250"
     width="50"
@@ -61,7 +58,7 @@
     rx="30" ry="30"/>
   <!-- Drips -->
   <rect
-    x="290"
+    x="140"
     y="590"
     height="100"
     width="20"
@@ -69,7 +66,7 @@
     fill="rgb(253,175,168)"
     />
   <rect
-    x="330"
+    x="180"
     y="580"
     height="70"
     width="20"
@@ -79,13 +76,13 @@
 
   <!-- eyes -->
   <circle
-    cx="210"
+    cx="60"
     cy="550"
     fill="rgb(239,154,147)"
     r="6"/>
 
   <circle
-    cx="290"
+    cx="140"
     cy="550"
     fill="rgb(239,154,147)"
     r="6"/>
@@ -94,8 +91,8 @@
   <path
     fill="rgb(237,153,146)"
     d="
-      M 230 565
-      A 1 1 0 0 0 270 565
+      M 80 565
+      A 1 1 0 0 0 120 565
       z
     "/>
 
@@ -104,8 +101,8 @@
     <clipPath id="cut-off-bottom">
       <path
         d="
-          M 230 565
-          A 1 1 0 0 0 270 565
+          M 80 565
+          A 1 1 0 0 0 120 565
           z
         "/>
     </clipPath>
@@ -114,10 +111,10 @@
     fill="rgb(254,194,185)"
     clip-path="url(#cut-off-bottom)"
     d="
-      M 230 590
-      A 1 1 0 0 1 270 590
+      M 80 590
+      A 1 1 0 0 1 120 590
       z
     "/>
-  <rect x="230" y="564" width="40" height="3" fill="rgb(237,153,146)" ry="1"/>
+  <rect x="80" y="564" width="40" height="3" fill="rgb(237,153,146)" ry="1"/>
 
 </svg>
