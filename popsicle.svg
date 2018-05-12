@@ -83,17 +83,33 @@
     fill="rgb(253,175,168)"/>
 
   <!-- eyes -->
-  <circle
+  <ellipse
     cx="60"
     cy="330"
     fill="rgb(239,154,147)"
-    r="6"/>
+    rx="6"
+    ry="6">
+    <animate
+      attributeName="ry"
+      from="6"
+      to="0"
+      dur=".2s"
+      repeatCount="2"/>
+  </ellipse>
 
-  <circle
+  <ellipse
     cx="140"
     cy="330"
     fill="rgb(239,154,147)"
-    r="6"/>
+    rx="6"
+    ry="6">
+    <animate
+      attributeName="ry"
+      from="6"
+      to="0"
+      dur=".2s"
+      repeatCount="2"/>
+  </ellipse>
 
   <!-- Mouth -->
   <path
