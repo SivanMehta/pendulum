@@ -9,6 +9,7 @@
 
   <!-- stick -->
 
+  <!-- ice cream -->
   <rect
     x="150"
     y="250"
@@ -16,16 +17,23 @@
     width="200"
     fill="rgb(253,175,168)"
     rx="15" ry="15"/>
+  <ellipse
+    cx="250"
+    cy="270"
+    rx="100"
+    ry="50"
+    fill="rgb(253,175,168)"
+    />
   <rect
     x="185"
-    y="280"
+    y="260"
     height="250"
     width="50"
     fill="rgb(253,165,157)"
     rx="30" ry="30"/>
   <rect
     x="265"
-    y="280"
+    y="260"
     height="250"
     width="50"
     fill="rgb(253,165,157)"
