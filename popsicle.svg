@@ -38,6 +38,23 @@
     width="50"
     fill="rgb(253,165,157)"
     rx="30" ry="30"/>
+  <!-- Drips -->
+  <rect
+    x="290"
+    y="590"
+    height="100"
+    width="20"
+    rx="10"
+    fill="rgb(253,175,168)"
+    />
+  <rect
+    x="330"
+    y="580"
+    height="70"
+    width="20"
+    rx="10"
+    fill="rgb(253,175,168)"
+    />
 
   <!-- eyes -->
   <circle
