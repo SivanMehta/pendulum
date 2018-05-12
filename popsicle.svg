@@ -125,4 +125,31 @@
     "/>
   <rect x="80" y="344" width="40" height="3" fill="rgb(237,153,146)" ry="1"/>
 
+  <!-- drips -->
+  <circle
+    cx="150"
+    cy="450"
+    fill="rgb(253,175,168)"
+    r="10">
+    <animate
+      attributeName="cy"
+      from="450"
+      to="550"
+      dur="2s"
+      repeatCount="indefinite"/>
+  </circle>
+
+  <circle
+    cx="190"
+    cy="410"
+    fill="rgb(253,175,168)"
+    r="10">
+    <animate
+      attributeName="cy"
+      from="410"
+      to="550"
+      dur="2.8s"
+      repeatCount="indefinite"/>
+  </circle>
+
 </svg>
