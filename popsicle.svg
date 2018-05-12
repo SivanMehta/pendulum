@@ -6,8 +6,29 @@
 
   <!-- https://dribbble.com/shots/2408548-Melting-icecream-Animated-with-css -->
   <!-- shadow -->
+  <ellipse
+    cx="250"
+    cy="770"
+    rx="60"
+    ry="20"
+    fill="rgb(231,231,230)"/>
 
   <!-- stick -->
+  <rect
+    fill="rgb(251,214,175)"
+    x="225"
+    y="570"
+    rx="20"
+    height="200"
+    width="50"
+    />
+  <rect
+    fill="rgb(238,203,166)"
+    x="225"
+    y="570"
+    height="45"
+    width="50"
+    />
 
   <!-- ice cream -->
   <rect
@@ -98,45 +119,5 @@
       z
     "/>
   <rect x="230" y="564" width="40" height="3" fill="rgb(237,153,146)" ry="1"/>
-
-  <path
-    d="
-      M 150 600
-
-      L 150 200
-
-      A 1 1 0 0 0 220 180
-
-      A 1 1 0 0 0 270 175
-
-      L 350 200
-
-      L 350 600
-
-      L 350 640
-
-      A 1 1 0 0 1 330 640
-
-      L 330 610
-
-      A 1 1 0 0 0 310 610
-
-      L 310 680
-
-      A 1 1 0 0 1 290 680
-
-      L 290 600
-
-      L 270 600
-
-      L 270 800
-
-      A 1 1 0 0 1 230 800
-
-      L 230 600
-      z"
-    fill="none"
-    stroke-width="1"
-    stroke="black"/>
 
 </svg>
