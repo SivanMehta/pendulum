@@ -1,6 +1,9 @@
+<!--
+  based off of
+  https://dribbble.com/shots/2408548-Melting-icecream-Animated-with-css
+-->
 
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220px" height="570px" viewBox="0 0 220 570">
-  <!-- https://dribbble.com/shots/2408548-Melting-icecream-Animated-with-css -->
 
   <!-- shadow -->
   <ellipse
