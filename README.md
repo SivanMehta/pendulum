@@ -1,6 +1,3 @@
-# svgs
+See me attempting to make `svg` animations [here].
 
-![](popsicle.svg)
-![](clock.svg)
-![](bar-chart.svg)
-![](pendulum.svg)
+[here]: https://sivanmehta.github.io/svgs/
