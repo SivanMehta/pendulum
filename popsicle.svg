@@ -1,14 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500px" height="1000px" viewBox="0 0 500 1000">
 
   <rect x="1" y="1" height="999" width="499" fill="none" stroke="black"/>
-
   <path
     d="
       M 150 600
 
       L 150 200
 
-      L 250 150
+      A 1 1 0 0 0 220 180
+
+      A 1 1 0 0 0 270 175
 
       L 350 200
 
@@ -37,7 +38,7 @@
       L 230 600
       z"
     fill="none"
-    stroke-width="1"
+    stroke-width="5"
     stroke="black"/>
 
 </svg>
