@@ -1,5 +1,5 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200px" height="570px" viewBox="0 0 200 570">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220px" height="570px" viewBox="0 0 220 570">
   <!-- https://dribbble.com/shots/2408548-Melting-icecream-Animated-with-css -->
 
   <!-- shadow -->
@@ -73,6 +73,14 @@
     rx="10"
     fill="rgb(253,175,168)"
     />
+
+  <!-- puddle -->
+  <ellipse
+    cx="170"
+    cy="550"
+    rx="50"
+    ry="20"
+    fill="rgb(253,175,168)"/>
 
   <!-- eyes -->
   <circle
