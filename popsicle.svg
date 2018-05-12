@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500px" height="1000px" viewBox="0 0 500 1000">
+
+  <rect x="1" y="1" height="999" width="499" fill="none" stroke="black"/>
+
+  <path
+    d="
+      M 150 600
+
+      L 150 200
+
+      L 250 150
+
+      L 350 200
+
+      L 350 600
+
+      L 350 660
+
+      L 330 660
+
+      L 330 600
+
+      L 310 600
+
+      L 310 720
+
+      L 290 720
+
+      L 290 600
+
+      L 270 600
+
+      L 270 800
+
+      L 230 800
+
+      L 230 600
+      z"
+    fill="none"
+    stroke-width="1"
+    stroke="black"/>
+
+</svg>
