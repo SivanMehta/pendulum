@@ -1,6 +1,59 @@
+
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500px" height="1000px" viewBox="0 0 500 1000">
 
+  <!-- Border Outline-->
   <rect x="1" y="1" height="999" width="499" fill="none" stroke="black"/>
+
+  <!-- https://dribbble.com/shots/2408548-Melting-icecream-Animated-with-css -->
+  <!-- shadow -->
+
+  <!-- stick -->
+
+  <rect
+    x="150"
+    y="250"
+    height="350"
+    width="200"
+    fill="rgb(253,175,168)"
+    rx="15" ry="15"/>
+  <rect
+    x="185"
+    y="280"
+    height="250"
+    width="50"
+    fill="rgb(253,165,157)"
+    rx="30" ry="30"/>
+  <rect
+    x="265"
+    y="280"
+    height="250"
+    width="50"
+    fill="rgb(253,165,157)"
+    rx="30" ry="30"/>
+
+  <!-- eyes -->
+  <circle
+    cx="210"
+    cy="550"
+    fill="rgb(239,154,147)"
+    r="6"/>
+
+  <circle
+    cx="290"
+    cy="550"
+    fill="rgb(239,154,147)"
+    r="6"/>
+
+  <!-- Mouth -->
+  <path
+    fill="rgb(237,153,146)"
+    d="
+      M 230 565
+      A 1 1 0 0 0 270 565
+      z
+    "/>
+  <rect x="230" y="564" width="40" height="3" fill="rgb(237,153,146)" ry="1"/>
+
   <path
     d="
       M 150 600
@@ -38,7 +91,7 @@
       L 230 600
       z"
     fill="none"
-    stroke-width="5"
+    stroke-width="1"
     stroke="black"/>
 
 </svg>
